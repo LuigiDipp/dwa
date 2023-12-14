@@ -1,0 +1,94 @@
+body {
+    margin: 0; 
+    height: 100vh;
+    background-image: url(cenario.gif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center
+    
+}
+
+body {
+    font-family: 'dogica', sans-serif;
+    text-align: center;
+    overflow: hidden;
+    padding-left: 200px;
+}
+
+.dogica-font {
+    overflow: hidden;
+    position: relative;
+    bottom: 200px;
+    left: 1000px;
+    letter-spacing: -7px;
+    font-family: 'dogica', sans-serif;
+    color: 	#FFFF00;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000;
+    letter-spacing: -4px;
+    line-height: 1.2; /* Ajuste a linha conforme necessário */
+    
+}
+
+@font-face {
+    font-family: 'Dogica';
+    src: url('/dogica/OTF/dogicabold.otf') format('woff');
+}
+
+@keyframes growShrink {
+    0% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+img{
+    padding-top: 200px;
+    width: 300px;
+    height: auto;
+}
+
+#a{
+    position: relative;
+    bottom: 300px;
+    left: 200px;
+}
+
+#b{
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+}
+
+#c{
+    position: relative;
+    top: 100px;
+    right: 400px;
+}
+
+#d{
+    position: relative;
+    bottom: 300px;
+    left: 200px;
+}
+
+#e{
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+}
+
+#f{
+    position: relative;
+    top: 100px;
+    right: 400px;
+}
+
+#volta{
+    position: relative;
+    right: 1120px;
+    top: 10px;
+}

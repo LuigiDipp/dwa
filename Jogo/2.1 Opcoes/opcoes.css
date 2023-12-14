@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+
+    height: 100vh;
+    background-image: url('cenario.gif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center
+}
+
+body {
+    font-family: 'dogica', sans-serif;
+    text-align: center;
+}
+
+.dogica-font {
+    overflow: hidden;
+    position: relative;
+    bottom: 250px;
+    left: 725px;
+    letter-spacing: -7px;
+    font-family: 'dogica', sans-serif;
+    color: 	#FFFF00;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px #000;
+    letter-spacing: -4px;
+    line-height: 1.2; /* Ajuste a linha conforme necessário */
+    animation: growShrink 2s infinite alternate;
+}
+
+@font-face {
+    font-family: 'Dogica';
+    src: url('/dogica/OTF/dogicabold.otf') format('woff');
+}
+
+@keyframes growShrink {
+    0% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+#botao1{
+    width: 400px;
+    height: auto;
+    position: relative;
+    left: 185px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+#botao2{
+    width: 400px;
+    height: auto;
+    position: relative;
+    text-align: center;
+    right: 215px;
+    top: 100px;
+    padding-bottom: 130px;
+}
+
+#botao3{
+    width: 400px;
+    height: auto;
+    position: relative;
+    text-align: center;
+    right: 615px;
+    top: 200px;
+    padding-bottom: 110px;
+}
+
+#github{
+    width: 80px;
+    height: auto;
+    position: relative;
+    top: 250px;
+    right: 1000px;
+}
+
+#instagram{
+        width: 80px;
+        height: auto;
+        position: relative;
+        top: 250px;
+        right: 930px;
+}
+
+#sobremim{
+    width: 80px;
+    height: auto;
+    position: relative;
+    top: 250px;
+    right: 865px;
+}

@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('cenario.png');
+    background-size: cover;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    position: relative;
+}
+
+#hero {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 170px;
+    right: 1050px;
+    z-index: 1;
+}
+
+.obstacle {
+    width: 100px;
+    height: 100px;
+    background-color: blue; /* Substitua por uma imagem ou ajuste conforme necessário */
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    z-index: 2;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 250px;
+    height: 100px;
+    position: relative;
+    left: 1200px;
+    bottom: 300px;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 10px;
+    position: relative;
+    left: 1000px;
+    bottom: 280px;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('cenario.png');
+    background-size: cover;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    position: relative;
+}
+
+#hero {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 170px;
+    right: 1050px;
+    z-index: 1;
+}
+
+.obstacle {
+    width: 100px;
+    height: 100px;
+    background-color: blue; /* Substitua por uma imagem ou ajuste conforme necessário */
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    z-index: 2;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 250px;
+    height: 100px;
+    position: relative;
+    left: 1500px;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 10px;
+    position: relative;
+    left: 1320px;
+}
+
+#exp{
+    position: relative;
+    bottom: 100px;
+    width: 1000px;
+}
+
+#entendi{
+    width: 300px;
+    height: auto;
+    position: relative;
+    top: 20px;
+    right: 700px;
+}
